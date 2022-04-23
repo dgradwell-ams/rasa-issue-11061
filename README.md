@@ -15,7 +15,7 @@
 1. `rasa train -d domain`
 2. `rasa run --enable-api --debug`
 3. in another terminal, run `./test-session.sh`
-4. wait >3 minutes
+4. wait >1 minute
 5. run `./test-session.sh` again
 6. note that the session does not expire when it is configured
 
@@ -30,7 +30,7 @@
 
 1. Using python 3.9
 2. The domain is split into multiple files and trained from the `domain` directory
-3. The `session_expiration_time` set to `3`
+3. The `session_expiration_time` set to `1`
 4. using a custom input channel (in `channels.session_test.SessionTestInput`)
    - configured in `credentials.yml`
    - the `./test-session.sh` POSTs to `http://localhost:5005/webhooks/session_test/webhook`
