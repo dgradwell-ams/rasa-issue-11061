@@ -22,7 +22,7 @@
 ## Further inspection
 
 1. cd models
-2. tar xvf <trained model file>
+2. tar xvf [trained model file]
 3. inspect the `components/domain_provider/domain.yml` file
 4. note the `session_expiration_time` is set to `60`, not the configured value
 
