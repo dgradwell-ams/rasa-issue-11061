@@ -1,0 +1,11 @@
+/models
+/results
+/**/*/__pycache__
+.DS_Store
+# .cache
+# .config
+# .keras
+.rasa
+
+# Story graphs
+*.dot
